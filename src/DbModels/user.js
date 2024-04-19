@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
-
+//user schema
 const quizUser = new Schema({
   name: {
     type: String,

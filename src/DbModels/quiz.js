@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
-
+//Quiz Schema
 const quizSchema = new Schema({
   question: {
     type: String,

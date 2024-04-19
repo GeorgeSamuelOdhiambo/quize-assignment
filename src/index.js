@@ -3,10 +3,12 @@ const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 require("dotenv").config();
 
+//import my routes
 const getRouter = require("./Routes/GetRouter");
 const postRouter = require("./Routes/PostRouter");
 
 const app = express();
+//prevent cors error by allowing traffic from everywhere
 app.use((req, res, next) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader(
@@ -26,6 +28,7 @@ app.use(bodyParser.json());
 
 app.use(getRouter, postRouter);
 
+//connect to mongo db
 mongoose.connect(process.env.DB_URL).then((result) => {
   const server = app.listen(PORT, () => {
     console.log(`Server started on http://localhost:${PORT}`);
