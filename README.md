@@ -27,7 +27,38 @@ Once you have completed the installation steps, you can run the application usin
 npm run dev<br>
 This command will start the application in development mode and you can access it at http://localhost:8080 in your web browser.
 
+<b>Endpoints and Sample Payloads</b>
 
+<li><b>POST</b> /quizzes
+Payload:
+{
+    "question": "What is the capital of France?",
+    "options": [
+        "Paris",
+        "London",
+        "Berlin",
+        "Rome"
+    ],
+    "rightAnswer": 0,
+    "startDate": "2024-04-19T04:00:00Z",
+    "endDate": "2024-04-19T05:00:00Z"
+}
+<li><b>POST</b> /createUser
+Payload:
+{
+    "name": "Samuel",
+    "email": "test@test.com",
+    "password": "@254Kenya"
+}
+<li><b>POST</b> /userLogin
+Payload:
+{
+    "email": "test@test.com",
+    "password": "@254Kenya"
+}
 
+<li><b>GET</b> /quizzes/active
 
+<li><b>GET</b> /quizzes/:id/result
 
+<li><b>GET</b> /quizzes/all
