@@ -17,7 +17,7 @@ This assignment aims to assess your backend development skills using Node.js, Ex
 
 2. Navigate to the project directory
 
-3. Create a `.env` file in the root directory of the project and add the following environment variables:<br> <li>PORT=8080<br> <li>JWT_SECRET="@123333331314455666quiztest5555666677"<br> <li>DB_URL="mongodb://localhost:27017/test"<br>
+3. Create a `.env` file in the root directory of the project and add the following environment variables:<br> - PORT=8080<br> - JWT_SECRET="@123333331314455666quiztest5555666677"<br> - DB_URL="mongodb://localhost:27017/test"
 
 
 4. Install the project dependencies:<br>npm install
