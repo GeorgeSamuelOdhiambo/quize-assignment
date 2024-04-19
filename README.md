@@ -10,9 +10,9 @@ To get a copy of the project up and running on your local machine, follow these 
 <li>Node.js and npm installed on your machine
 <li>MongoDB installed
 
-<b>Installation</b>
+<b>Installation</b><br>
 Clone the repository to your local machine using the following command:<br>
-git clone https://github.com/your-username/your-repository.git<br>
+git clone https://github.com/GeorgeSamuelOdhiambo/quize-assignment.git<br>
 <b>Navigate to the project directory:</b>
 <li>cd your-repository
 <li>Create a .env file in the root directory of the project and add the following environment variables:
